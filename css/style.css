@@ -1,0 +1,144 @@
+
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif;}
+
+.profile_image{
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(0, 255, 255, 0.418);
+}
+.profile_image img{
+    width: 200px;
+    height: 190px;
+    border-radius: 50%;
+    border: 10px solid salmon;
+
+}
+#proj-imgs{
+    margin: 0 auto;
+    padding: 15px;
+    text-align: center;   
+}
+
+.main-content{
+    padding-left: 10%;
+    background: #cb919190;
+    margin-bottom: 0;
+}
+
+section{
+    padding: 0 5%;
+    padding-top: 5%;
+    color: rgb(10, 10, 10);
+    height: auto;
+}
+section h4,h1, h6{
+    text-transform: uppercase;    
+}
+section h4{
+    font-size: 45px;
+    color: coral;
+    padding-bottom: 10px;
+}
+section h5{
+    font-size: 28px;
+    padding-bottom: 20px;
+}
+
+#about h1{
+    font-size: 72px;
+    color: coral;
+    padding-bottom: 10px;
+}
+
+#about .icons{
+    font-size: 18px;
+}
+
+.icons{
+    font-size: 38px;
+    padding-top: 10px;
+    margin-right: 20px;
+}
+.education{
+    display: block;
+}
+#projects{
+    margin: 0 auto;
+    width: 90%;
+    border: 2px solid green;
+}
+
+#projects #proj-imgs{
+    margin: 0 auto;
+    padding: 15px;
+    text-align: center;   
+    padding-left: 10px;
+}
+/* ---------------------------------------------------------- */
+
+.about2{
+	width: 90%;
+	padding: 10px 0px;
+    background-color: transparent;
+    margin: auto;
+    justify-content: space-evenly;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+	display: block;
+    border: white solid;
+}
+.about2 img{
+	height: auto;
+	width: 200px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.about2-text{
+	width: 60%;
+    background-color: transparent;
+    padding: 15px;
+    border-radius: 5px;
+}
+.main2{
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+    background-color: transparent;
+}
+.about2-text h3{
+	color: black;
+	font-size: 30px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+    background-color: transparent;
+}
+.about2-text p{
+	color: black;
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 20px;
+	margin-bottom: 45px;
+    text-align: justify;
+    background-color: transparent;
+}
+
+h2{
+    color: teal;
+	font-size: 60px;
+	width: 1130px;
+	margin: 30px auto;
+	text-align: center;
+}
+
+.footer {
+	width: 100%;
+	background-color: #4F4846;
+	color: white;
+	text-align: center;
+	padding: 5px;
+  }
